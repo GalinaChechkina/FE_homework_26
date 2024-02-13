@@ -7,7 +7,7 @@ export default function Text(){
     return(
         <div>
             <form>
-                <input onChange = {(event): void=> setState(event.target.value)} type= "text" />
+                <input onChange = {(event): void=> setState(event.target.value)} type= "text" value={state} />
             </form>
             <p>{state}</p>
         </div>
