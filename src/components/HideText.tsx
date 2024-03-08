@@ -7,8 +7,8 @@ export default function HideText(){
     return(
         <div>
             <button onClick = {()=> setState(!isState)}>Click me!</button>
-            {/* isState ? <p>Text</p>: "" */}
-            {isState && <p>Text</p>}
+            { isState ? <p>Text</p>: "" }
+            {/* {isState && <p>Text</p>} */}
         </div>
 
     );

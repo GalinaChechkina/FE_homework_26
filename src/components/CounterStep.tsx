@@ -6,11 +6,11 @@ export default function CounterStep(){
     return (
         <div>
         <p>Change step to: {state}</p>
-        <button onClick = {()=> setState(state+stateStep)}>+1</button>
         <button onClick = {()=> setState(state-stateStep)}>-1</button>
+        <button onClick = {()=> setState(state+stateStep)}>+1</button>
         <p>{stateStep}</p>
-        <button onClick = {()=> setStateStep(stateStep+1)}>+1</button>
         <button onClick = {()=> setStateStep(stateStep-1)}>-1</button>
+        <button onClick = {()=> setStateStep(stateStep+1)}>+1</button>
         </div>
     );
 
